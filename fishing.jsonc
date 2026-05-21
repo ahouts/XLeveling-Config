@@ -19,7 +19,7 @@
       "minLevel": 5,
       "enabled": true,
       "values": [
-        40
+        40 // Increase XP by X%
       ]
     },
     {
@@ -29,15 +29,17 @@
       "minLevel": 2,
       "enabled": true,
       "values": [
-        8,
+        1, // X% + X%*Level (Max X%) to not consume durability
         1,
-        25,
-        15,
+        5,
+
+        5,
         1,
-        35,
-        22,
+        10,
+
+        10,
         1,
-        45
+        15
       ]
     },
     {
@@ -47,17 +49,19 @@
       "minLevel": 4,
       "enabled": true,
       "values": [
-        8,
+        1, // When filleting fish X% + X%*Level (Max X%) to get extra fillets, Bonus fillet equals Level (Max X?)
         1,
-        25,
+        5,
         2,
-        12,
+
+        5,
         1,
-        35,
+        10,
         3,
-        18,
+
+        10,
         1,
-        45,
+        15,
         4
       ]
     },
@@ -68,12 +72,14 @@
       "minLevel": 5,
       "enabled": true,
       "values": [
-        6,
+        6, // Fish bite X% + X%*Level (Max X%) faster
         1,
         30,
+
         12,
         1,
         40,
+
         18,
         1,
         50
@@ -84,9 +90,9 @@
       "id": 4,
       "maxTier": 1,
       "minLevel": 5,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        1
+        1 // Automatically attached bait when casting
       ]
     },
     {
@@ -96,15 +102,17 @@
       "minLevel": 2,
       "enabled": true,
       "values": [
-        6,
+        1, // X% + X%*Level (Max X%) to not consume bait when catching fish.
         1,
-        30,
-        12,
+        10,
+
+        10,
         1,
-        40,
-        18,
-        1,
-        45
+        20,
+
+        20,
+        2,
+        30
       ]
     },
     {
@@ -114,15 +122,17 @@
       "minLevel": 8,
       "enabled": true,
       "values": [
+        1, // X% + X%*Level (Max X%) to catch two fish at once
+        1,
+        3,
+
+        3,
+        1,
+        5,
+
         5,
         1,
-        25,
-        8,
-        1,
-        30,
-        12,
-        1,
-        35
+        10
       ]
     },
     {
@@ -130,9 +140,9 @@
       "id": 7,
       "maxTier": 3,
       "minLevel": 6,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        5,
+        5, // X% + X%*Level (Max X%) chance to pull up random item instead of fish
         1,
         25,
         8,
