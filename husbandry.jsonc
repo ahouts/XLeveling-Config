@@ -19,12 +19,14 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        10,
+        10, // Increases damage dealt to animals, while reducing damage received by animals by X% + X%*Level (Max X%)
         0,
         10,
+
         10,
         1,
         20,
+
         10,
         1,
         30
