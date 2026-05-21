@@ -17,9 +17,9 @@
       "id": 0,
       "maxTier": 3,
       "minLevel": 1,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        10,
+        10, // you need X% less metal to fill a mold
         20,
         25
       ]
@@ -31,9 +31,9 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
+        6, // After finishing work, receive one bit for every X splits made in the work.
         5,
-        4,
-        3
+        4
       ]
     },
     {
@@ -43,7 +43,7 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        1,
+        1, // Every hit with a hammer heats up the metal by X degrees
         2
       ]
     },
@@ -54,15 +54,17 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
+        1, // after finishing work, regain X% + X%*level (Max X%) of the used durability
+        1,
+        5,
+
         5,
         1,
-        15,
+        10,
+
         5,
         2,
-        25,
-        5,
-        2,
-        45
+        15
       ]
     },
     {
@@ -71,16 +73,16 @@
       "maxTier": 1,
       "minLevel": 3,
       "enabled": true,
-      "values": []
+      "values": [] // Heavy hits on slag split it
     },
     {
       "name": "blacksmith",
       "id": 5,
       "maxTier": 2,
       "minLevel": 3,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        1,
+        1, // Increase quality of loot, automatic no
         5,
         2,
         10
@@ -93,7 +95,7 @@
       "minLevel": 5,
       "enabled": true,
       "values": [
-        40
+        40 // increase XP gain
       ]
     },
     {
@@ -101,9 +103,9 @@
       "id": 7,
       "maxTier": 3,
       "minLevel": 5,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        1,
+        1, // X% to just finish the work pet hammer smack
         1,
         2,
         2,
@@ -119,9 +121,9 @@
       "id": 8,
       "maxTier": 3,
       "minLevel": 5,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        5,
+        5, // X% to make a copy of it
         0,
         5,
         5,
@@ -139,7 +141,7 @@
       "minLevel": 5,
       "enabled": true,
       "values": [
-        95,
+        95, // get X% resources from scrapping a Locust
         1,
         110,
         160,
@@ -154,7 +156,7 @@
       "minLevel": 7,
       "enabled": true,
       "values": [
-        2,
+        2, // Heavy Hits actually do something
         3,
         4,
         4
@@ -166,31 +168,31 @@
       "maxTier": 1,
       "minLevel": 8,
       "enabled": true,
-      "values": []
+      "values": [] // Get a message when a Cruicible is done cookin
     },
     {
       "name": "machinelearning",
       "id": 12,
       "maxTier": 1,
       "minLevel": 8,
-      "enabled": true,
-      "values": []
+      "enabled": false,
+      "values": [] // teach a helve hammer to do work
     },
     {
       "name": "bloomeryexpert",
       "id": 13,
       "maxTier": 1,
       "minLevel": 8,
-      "enabled": true,
-      "values": []
+      "enabled": false,
+      "values": [] // Make bloomeries not break
     },
     {
       "name": "automatedsmithing",
       "id": 14,
       "maxTier": 1,
       "minLevel": 10,
-      "enabled": true,
-      "values": [
+      "enabled": false,
+      "values": [ // Helve hammers do work
         1
       ]
     },
@@ -201,7 +203,7 @@
       "minLevel": 5,
       "enabled": true,
       "values": [
-        100
+        100 // When quenching, instead of breaking, the tool breaks and has to be chiseled down
       ]
     }
   ],
