@@ -19,15 +19,17 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
+        1, // Increase number of stones from mining by X% ++ X%*level (Max X%)
+        1,
         10,
-        2,
-        30,
+
+        10,
+        1,
         20,
-        4,
-        60,
+
         20,
-        4,
-        100
+        1,
+        30
       ]
     },
     {
@@ -55,15 +57,17 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
+        1, // Increase ores from mining by X% ++ X%*level (Max X%)
+        1,
+        5,
+
         5,
         1,
-        15,
         10,
-        2,
-        30,
-        13,
-        2,
-        50
+
+        10,
+        1,
+        15
       ]
     },
     {
@@ -73,15 +77,17 @@
       "minLevel": 5,
       "enabled": true,
       "values": [
+        1, // Increase gems from mining by X% ++ X%*level (Max X%)
+        1,
+        5,
+
         5,
         1,
-        15,
         10,
-        2,
-        30,
-        13,
-        2,
-        50
+
+        10,
+        1,
+        15
       ]
     },
     {
@@ -115,15 +121,17 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
+        1, // Chance to not reduce durability equal to X% + X%*Level (Max X%)
+        1,
+        5,
+
         5,
         1,
-        15,
-        5,
-        2,
-        25,
-        5,
-        2,
-        45
+        10,
+
+        10,
+        1,
+        15
       ]
     },
     {
@@ -133,16 +141,17 @@
       "minLevel": 5,
       "enabled": true,
       "values": [
-        40
+        40 // increase XP by X%
       ]
     },
     {
       "name": "crystalseeker",
       "id": 7,
-      "maxTier": 1,
+      "maxTier": 2,
       "minLevel": 5,
       "enabled": true,
       "values": [
+        50, // Increases effect of Ore Miner on Crystalized ores by X%
         100
       ]
     },
@@ -153,9 +162,9 @@
       "minLevel": 7,
       "enabled": true,
       "values": [
+        15, // Using bombs has X% less penalty
         33,
-        66,
-        100
+        50
       ]
     },
     {
@@ -163,9 +172,9 @@
       "id": 9,
       "maxTier": 3,
       "minLevel": 10,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        1,
+        1, // Auto Prospecting Pick
         2,
         3
       ]
@@ -175,9 +184,9 @@
       "id": 10,
       "maxTier": 1,
       "minLevel": 12,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        2,
+        2, // Some weird ability
         3,
         10,
         100,
@@ -189,9 +198,9 @@
       "id": 11,
       "maxTier": 1,
       "minLevel": 12,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        50,
+        50, // Mine in a 3x3 with X% extra tool damage and X satiety cost
         20
       ]
     },
@@ -201,7 +210,7 @@
       "maxTier": 1,
       "minLevel": 12,
       "enabled": true,
-      "values": []
+      "values": [] // Stonebreaker, Stone Cutter, Ore Miner, and Gemstone miner skills affect bombs too
     }
   ],
   "Attributes": {
