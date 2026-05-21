@@ -177,7 +177,7 @@
       "id": 9,
       "maxTier": 2,
       "minLevel": 5,
-      "enabled": False,
+      "enabled": false,
       "values": [
         2,// Every time you break sand or gravel, X% it is automatically panned
         4
@@ -188,7 +188,7 @@
       "id": 10,
       "maxTier": 2,
       "minLevel": 5,
-      "enabled": False,
+      "enabled": false,
       "values": [
         1, // Increase number of rare items from Scrap Detector skill by X with a chance of X%
         50,

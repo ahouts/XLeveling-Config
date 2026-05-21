@@ -145,7 +145,7 @@
       "id": 9,
       "maxTier": 2,
       "minLevel": 5,
-      "enabled": False,
+      "enabled": false,
       "values": [
         1, // Planted seeds have an by X% + X%*Level (Max X%) chance to skip a growth stage, Always occurs in a Greenhouse with a chance to trigger again (Discuss balance)
         1,

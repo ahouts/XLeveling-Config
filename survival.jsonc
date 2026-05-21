@@ -288,7 +288,7 @@
   ],
   "Attributes": {
     "invSwitchCD": "3",
-    "allowCatEyesToggle": "False",
+    "allowCatEyesToggle": "false",
     "allowSteeplechaserToggle": "True",
     "expLossOnDeath": "0.5"
   },

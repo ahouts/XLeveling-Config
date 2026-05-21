@@ -257,7 +257,7 @@
       "id": 16,
       "maxTier": 3,
       "minLevel": 5,
-      "enabled": False,
+      "enabled": false,
       "values": [
         10, // When you kill an enemy gain X Protein
         20,
@@ -269,7 +269,7 @@
       "id": 17,
       "maxTier": 2,
       "minLevel": 5,
-      "enabled": False,
+      "enabled": false,
       "values": [
         1, // When you hit an enemy with a shovel X% to deal X bonus damage
         10,
@@ -282,7 +282,7 @@
       "id": 18,
       "maxTier": 2,
       "minLevel": 7,
-      "enabled": False,
+      "enabled": false,
       "values": [
         20, // At X% HP, increase X% Movespeed, reduce incoming damage by X%, after X seconds, become exhausted for X seconds
         20,
@@ -302,7 +302,7 @@
       "id": 19,
       "maxTier": 3,
       "minLevel": 7,
-      "enabled": False,
+      "enabled": false,
       "values": [
         3, // Lifesteal, No
         80,
@@ -317,7 +317,7 @@
       "id": 20,
       "maxTier": 1,
       "minLevel": 8,
-      "enabled": False,
+      "enabled": false,
       "values": [
         50, // Increase damage while drunk by X%, reduce damage by X% while sober
         50
@@ -328,7 +328,7 @@
       "id": 21,
       "maxTier": 3,
       "minLevel": 10,
-      "enabled": False,
+      "enabled": false,
       "values": [
         2, // On hit X% to light enemy on fire
         4,
@@ -340,7 +340,7 @@
       "id": 22,
       "maxTier": 1,
       "minLevel": 10,
-      "enabled": False,
+      "enabled": false,
       "values": [
         2, // Successive kills increase damage by X% and received damage by X%, lasts for X seconds with a maximum of X stacks
         3,
@@ -353,12 +353,12 @@
       "id": 23,
       "maxTier": 1,
       "minLevel": 10,
-      "enabled": False,
+      "enabled": false,
       "values": [] // Not Listed
     }
   ],
   "Attributes": {
-    "enableAbilitiesInPvP": "False"
+    "enableAbilitiesInPvP": "false"
   },
   "ClassExpMultipliers": {
     "commoner": 0.1,

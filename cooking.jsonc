@@ -181,7 +181,7 @@
   "Attributes": {
     "expBase": "0.0004",
     "fruitPressExpPerLitre": "0.05",
-    "bypassDesalinationLock": "False"
+    "bypassDesalinationLock": "false"
   },
   "ClassExpMultipliers": {
     "commoner": 0.1,
