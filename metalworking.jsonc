@@ -212,7 +212,7 @@
     "useVanillaBits": "True",
     "bitsForIngot": "21",
     "chiselRecipesRatio": "0.5",
-    "allowFinishingTouchExploit": "false",
+    "allowFinishingTouchExploit": "False",
     "qualitySteps": "0"
   },
   "ClassExpMultipliers": {

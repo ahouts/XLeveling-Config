@@ -110,7 +110,7 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        5, // Increases chance to absorb damage with passive parry by X% 
+        5, // Increases chance to absorb damage with passive parry by X%
         10
       ]
     },
@@ -121,7 +121,7 @@
       "minLevel": 1,
       "enabled": false,
       "values": [
-        5, // Increase damage with tools by X% + X%*Level(depending on tool) (Max X%) 
+        5, // Increase damage with tools by X% + X%*Level(depending on tool) (Max X%)
         2,
         25,
 
@@ -358,7 +358,7 @@
     }
   ],
   "Attributes": {
-    "enableAbilitiesInPvP": "false"
+    "enableAbilitiesInPvP": "False"
   },
   "ClassExpMultipliers": {
     "commoner": 0.1,
