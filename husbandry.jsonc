@@ -28,7 +28,7 @@
         20,
 
         10,
-        1,
+        2,
         30
       ]
     },
@@ -39,21 +39,23 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        5,
+        1, // Increase meat yield from animals by X% + X%*Level (Max X%)
         1,
-        15,
+        5,
+        1, // idk what this does
+        5, // idk what this does
+
+        5,
         1,
         10,
-        5,
+        1, // idk what this does
+        7, // idk what this does
+
+        10,
         2,
-        25,
-        1,
-        15,
-        5,
-        2,
-        45,
-        1,
-        20
+        20,
+        1, // idk what this does
+        10 // idk what this does
       ]
     },
     {
@@ -63,21 +65,23 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        5,
+        1, // Increase hide yield from animals by X% + X%*Level (Max X%)
         1,
-        15,
+        5,
+        1, // idk what this does
+        5, // idk what this does
+
+        5,
         1,
         10,
-        5,
+        1, // idk what this does
+        7, // idk what this does
+
+        10,
         2,
-        25,
-        1,
-        15,
-        5,
-        2,
-        45,
-        1,
-        20
+        20,
+        1, // idk what this does
+        10 // idk what this does
       ]
     },
     {
@@ -87,15 +91,17 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
+        5, // Increase bone yield from carcases by X% + X%*Level (Max X%)
+        1,
+        10,
+
         10,
         1,
         20,
-        15,
-        2,
-        40,
+
         20,
-        2,
-        60
+        1,
+        30
       ]
     },
     {
@@ -103,11 +109,12 @@
       "id": 4,
       "maxTier": 2,
       "minLevel": 3,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        33,
+        33, // Increases milk and egg yield by X%. You have X% chance to increase the generation of animal to a max of gen X
         2,
         5,
+
         50,
         3,
         10
@@ -118,13 +125,14 @@
       "id": 5,
       "maxTier": 2,
       "minLevel": 3,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        10,
+        10, // Animals eating from troughs have X% + X%*Level (Max X%) to not consume food, Animals eating have an X% to increase generation to a max of gen X
         1,
         20,
         1,
         4,
+
         20,
         1,
         40,
@@ -139,7 +147,7 @@
       "minLevel": 3,
       "enabled": true,
       "values": [
-        -20,
+        -20, // Reduces Animal Seeking range by X%
         -40
       ]
     },
@@ -150,17 +158,25 @@
       "minLevel": 5,
       "enabled": true,
       "values": [
-        40
+        40 // Increase XP by X%
       ]
     },
     {
       "name": "preserver",
       "id": 8,
-      "maxTier": 1,
+      "maxTier": 3,
       "minLevel": 5,
       "enabled": true,
       "values": [
+        5, // increases time harvested meat takes to go bad by X% + X%*Level (Max X%)
+        1,
         10,
+
+        10,
+        1,
+        20,
+
+        20,
         1,
         30
       ]
@@ -170,14 +186,16 @@
       "id": 9,
       "maxTier": 3,
       "minLevel": 5,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        10,
+        10, // Reduce liquid consumption when tanning leather by X% + X%*Level (Max X%) (discuss)
         1,
         20,
+
         10,
         2,
         30,
+
         10,
         2,
         50
@@ -188,9 +206,9 @@
       "id": 10,
       "maxTier": 2,
       "minLevel": 5,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        5,
+        5, // pull cheese out of the udders of an animal
         1,
         5,
         2
@@ -201,17 +219,17 @@
       "id": 11,
       "maxTier": 1,
       "minLevel": 6,
-      "enabled": true,
-      "values": []
+      "enabled": false,
+      "values": [] // make a trap that already exists
     },
     {
       "name": "breeder",
       "id": 12,
       "maxTier": 1,
       "minLevel": 8,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        10,
+        10, // Make pregnancy have a shorter gestation period
         2,
         1,
         60
@@ -222,9 +240,9 @@
       "id": 13,
       "maxTier": 1,
       "minLevel": 10,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        0,
+        0, // make pregnancy birth more animals
         1,
         1,
         30
