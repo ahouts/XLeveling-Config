@@ -19,15 +19,17 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
+        1, // Increase wood from felling trees by X% + X%*Level (Max X%)
+        1,
+        5,
+
+        5,
+        1,
+        10,
+
         10,
         1,
-        20,
-        20,
-        2,
-        40,
-        20,
-        2,
-        60
+        15
       ]
     },
     {
@@ -37,23 +39,28 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        10,
+        10, // Receive X% more sapplings from breaking leaves
         20
       ]
     },
     {
       "name": "moreladders",
       "id": 2,
-      "maxTier": 2,
+      "maxTier": 3,
       "minLevel": 1,
       "enabled": true,
       "values": [
+        1, // receive X% + X%*Level (Max X%) more sticks from breaking leaves
+        2,
+        10,
+
         10,
         2,
-        30,
         20,
-        4,
-        60
+
+        20,
+        2,
+        30
       ]
     },
     {
@@ -61,9 +68,9 @@
       "id": 3,
       "maxTier": 1,
       "minLevel": 1,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        2
+        2 // Every time you cut down a PINE tree, X% per log a resin drops
       ]
     },
     {
@@ -71,9 +78,9 @@
       "id": 4,
       "maxTier": 3,
       "minLevel": 3,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        87,
+        87, // Planted trees grow takes X% of the time to fully grow (Just use the world settings)
         74,
         60
       ]
@@ -85,21 +92,23 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        1,
+        1, // Breaking a block with an axe increases tree felling speed by X% + 0.X%*Level (Max X%) with a maximum of X Stacks, lasting X seconds
         1,
         2,
         10,
         30,
+
         2,
         2,
         4,
         10,
-        40,
+        30,
+
         2,
         2,
         6,
         10,
-        45
+        30
       ]
     },
     {
@@ -109,15 +118,17 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
+        1, // Cutting a tree with an axe has an X% + X%*Level (Max X%) to not reduce durability
+        1,
+        5,
+
         5,
         1,
-        15,
-        5,
-        2,
-        25,
-        5,
-        2,
-        45
+        10,
+
+        10,
+        1,
+        15
       ]
     },
     {
@@ -127,7 +138,7 @@
       "minLevel": 5,
       "enabled": true,
       "values": [
-        40
+        40 // Increases XP by X%
       ]
     },
     {
@@ -137,9 +148,9 @@
       "minLevel": 5,
       "enabled": true,
       "values": [
-        13,
-        26,
-        40
+        10, // receive X% more charcoal from charcoal piles
+        20,
+        30
       ]
     },
     {
@@ -149,7 +160,7 @@
       "minLevel": 5,
       "enabled": true,
       "values": [
-        25,
+        25, // Breaking a layer of charcoal has an X% to break another layer
         50
       ]
     },
@@ -160,8 +171,8 @@
       "minLevel": 5,
       "enabled": true,
       "values": [
-        50,
-        100
+        10, // Increases chance of grafting and rooting fruit tree branches by X%
+        25
       ]
     },
     {
@@ -169,9 +180,9 @@
       "id": 11,
       "maxTier": 1,
       "minLevel": 7,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        50
+        50 // Resin Farmer but affects all trees at X% of the rate of the Resin Farmer skill.
       ]
     }
   ],
