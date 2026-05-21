@@ -140,14 +140,16 @@
       "id": 7,
       "maxTier": 3,
       "minLevel": 6,
-      "enabled": false,
+      "enabled": true,
       "values": [
         5, // X% + X%*Level (Max X%) chance to pull up random item instead of fish
         1,
         25,
+
         8,
         1,
         30,
+
         12,
         1,
         35
