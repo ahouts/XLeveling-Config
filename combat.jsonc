@@ -19,12 +19,14 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        10,
+        10, // Increases damage w/ swords by X% + X%*Level (Max X%)
         1,
         20,
+
         20,
         2,
         40,
+
         20,
         2,
         60
