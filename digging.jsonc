@@ -138,7 +138,7 @@
       "enabled": true,
       "values": [
         25, // Increase panning speed by X%
-        50
+        50,
         75
       ]
     },
