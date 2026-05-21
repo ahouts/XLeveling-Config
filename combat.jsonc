@@ -24,7 +24,7 @@
         10,
 
         10,
-        2,
+        1,
         20,
 
         15,
@@ -39,17 +39,17 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        10, // Increases damage w/ Bows by X% + X%*Level (Max X%)
+        5, // Increases damage w/ Bows by X% + X%*Level (Max X%)
+        1,
+        10,
+
+        10,
         1,
         20,
 
-        20,
+        15,
         2,
-        40,
-
-        20,
-        2,
-        60
+        30
       ]
     },
     {
@@ -59,32 +59,37 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        10, // Increases damage w/ Spears by X% + X%*Level (Max X%)
+        5, // Increases damage w/ Spears by X% + X%*Level (Max X%)
+        1,
+        10,
+
+        10,
         1,
         20,
 
-        20,
+        15,
         2,
-        40,
-
-        20,
-        2,
-        60
+        30
       ]
     },
     {
       "name": "tank",
       "id": 3,
-      "maxTier": 2,
+      "maxTier": 3,
       "minLevel": 1,
       "enabled": true,
       "values": [
+        5, // increase damage absorbed with shield by X% + X%*Level (Max X%)
+        1,
+        10,
+
         10,
         1,
         20,
-        20,
-        1,
-        40
+
+        15,
+        2,
+        30
       ]
     },
     {
@@ -94,7 +99,7 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        3,
+        3, // Increases chance to absorb damage with active Parry by X%
         5
       ]
     },
@@ -105,7 +110,7 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        5,
+        5, // Increases chance to absorb damage with passive parry by X% 
         10
       ]
     },
@@ -114,14 +119,16 @@
       "id": 6,
       "maxTier": 3,
       "minLevel": 1,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        5,
+        5, // Increase damage with tools by X% + X%*Level(depending on tool) (Max X%) 
         2,
         25,
+
         15,
         3,
         40,
+
         15,
         3,
         75
@@ -134,7 +141,7 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        2,
+        2, // Increase damage with fists by X, modified positively by armor
         3,
         4
       ]
@@ -146,7 +153,7 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        6,
+        6, // Increase damage with fists by X, modified negatively by armor
         9,
         12
       ]
@@ -158,12 +165,13 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        10,
+        5, // Increase loot from mobs by X% + X%*Level (Max X%)
         1,
-        20,
-        20,
+        10,
+
+        10,
         2,
-        40
+        20
       ]
     },
     {
@@ -173,10 +181,11 @@
       "minLevel": 3,
       "enabled": true,
       "values": [
-        20,
-        25,
-        40,
-        50
+        7, // Heavy Armor Only - Decrease Healing & Hunger rate by X%, Increase Range Accuracy, Range Charge Speed, Walkspeed X%
+        13,
+
+        15,
+        25
       ]
     },
     {
@@ -186,8 +195,8 @@
       "minLevel": 3,
       "enabled": true,
       "values": [
-        5,
-        10
+        3, // Light Armor Only - Increase Healing rate, Hunger rate, Range Accuracy, Range Charge Speed X%
+        6
       ]
     },
     {
@@ -197,8 +206,8 @@
       "minLevel": 3,
       "enabled": true,
       "values": [
-        20,
-        40
+        10, // Reduces walkspeed penalties by X%
+        20
       ]
     },
     {
@@ -208,32 +217,38 @@
       "minLevel": 5,
       "enabled": true,
       "values": [
-        40
+        40 // Increase XP in Combat by X%
       ]
     },
     {
       "name": "bully",
       "id": 14,
-      "maxTier": 2,
+      "maxTier": 3,
       "minLevel": 5,
       "enabled": true,
       "values": [
-        0,
+        0, // Increase knockback from Melee by X% + X%*Level (Max X%)
         1,
         10,
-        5,
+
+        10,
         1,
-        25
+        20,
+
+        15,
+        2,
+        30
       ]
     },
     {
       "name": "sniper",
       "id": 15,
-      "maxTier": 2,
+      "maxTier": 3,
       "minLevel": 5,
       "enabled": true,
       "values": [
-        15,
+        10, // Increases accuracy by X%
+        20,
         30
       ]
     },
@@ -242,9 +257,9 @@
       "id": 16,
       "maxTier": 3,
       "minLevel": 5,
-      "enabled": true,
+      "enabled": False,
       "values": [
-        10,
+        10, // When you kill an enemy gain X Protein
         20,
         30
       ]
@@ -254,9 +269,9 @@
       "id": 17,
       "maxTier": 2,
       "minLevel": 5,
-      "enabled": true,
+      "enabled": False,
       "values": [
-        1,
+        1, // When you hit an enemy with a shovel X% to deal X bonus damage
         10,
         2,
         15
@@ -267,13 +282,14 @@
       "id": 18,
       "maxTier": 2,
       "minLevel": 7,
-      "enabled": true,
+      "enabled": False,
       "values": [
-        20,
+        20, // At X% HP, increase X% Movespeed, reduce incoming damage by X%, after X seconds, become exhausted for X seconds
         20,
         25,
         10,
         24,
+
         20,
         40,
         50,
@@ -286,9 +302,9 @@
       "id": 19,
       "maxTier": 3,
       "minLevel": 7,
-      "enabled": true,
+      "enabled": False,
       "values": [
-        3,
+        3, // Lifesteal, No
         80,
         5,
         65,
@@ -301,9 +317,9 @@
       "id": 20,
       "maxTier": 1,
       "minLevel": 8,
-      "enabled": true,
+      "enabled": False,
       "values": [
-        50,
+        50, // Increase damage while drunk by X%, reduce damage by X% while sober
         50
       ]
     },
@@ -312,9 +328,9 @@
       "id": 21,
       "maxTier": 3,
       "minLevel": 10,
-      "enabled": true,
+      "enabled": False,
       "values": [
-        2,
+        2, // On hit X% to light enemy on fire
         4,
         6
       ]
@@ -324,9 +340,9 @@
       "id": 22,
       "maxTier": 1,
       "minLevel": 10,
-      "enabled": true,
+      "enabled": False,
       "values": [
-        2,
+        2, // Successive kills increase damage by X% and received damage by X%, lasts for X seconds with a maximum of X stacks
         3,
         16,
         10
@@ -337,8 +353,8 @@
       "id": 23,
       "maxTier": 1,
       "minLevel": 10,
-      "enabled": true,
-      "values": []
+      "enabled": False,
+      "values": [] // Not Listed
     }
   ],
   "Attributes": {
