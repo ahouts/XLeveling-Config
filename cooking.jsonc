@@ -19,7 +19,7 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        34,
+        34, // you can cook X% more servings at once
         67,
         100
       ]
@@ -31,15 +31,17 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
+        5, // you can cook X% + X% * lv faster (MAX X%)
+        1,
+        10,
+
         10,
         1,
         20,
-        20,
+
+        15,
         2,
-        40,
-        20,
-        2,
-        60
+        30
       ]
     },
     {
@@ -49,14 +51,16 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        5,
+        5, // increases shelf life of cooked food by %X + %X * lv (MAX %X)
         1,
         15,
-        20,
+        20, // also decreases cooking speed by X%
+
         10,
         2,
         30,
         20,
+
         10,
         2,
         50,
@@ -68,14 +72,16 @@
       "id": 3,
       "maxTier": 3,
       "minLevel": 3,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        10,
+        10, // increase the number of servings you gain when cooking by X% + X% * lv (MAX X%)
         1,
         20,
+
         20,
         1,
         30,
+
         20,
         1,
         40
@@ -86,9 +92,9 @@
       "id": 4,
       "maxTier": 3,
       "minLevel": 3,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        1,
+        1, // lets you create salt
         1,
         2,
         1,
@@ -103,7 +109,7 @@
       "minLevel": 3,
       "enabled": true,
       "values": [
-        75,
+        75, // spoilage rate * X%
         66,
         50
       ]
@@ -113,10 +119,11 @@
       "id": 6,
       "maxTier": 2,
       "minLevel": 3,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        1,
-        5,
+        1, // X base quality, X max quality depending on quality of food
+        5, // get a 10 minute effect based on nutrition values and intensity based on quality
+
         2,
         10
       ]
@@ -128,7 +135,7 @@
       "minLevel": 5,
       "enabled": true,
       "values": [
-        40
+        40 // cooking specialization, earn X% more cooking EXP
       ]
     },
     {
@@ -136,14 +143,16 @@
       "id": 8,
       "maxTier": 3,
       "minLevel": 5,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        10,
+        10, // X% + X% * lv chance (MAX X%) to pull a random ingredient out of your ass while cooking
         1,
         20,
+
         20,
         2,
         40,
+
         20,
         2,
         60
@@ -156,8 +165,8 @@
       "minLevel": 6,
       "enabled": true,
       "values": [
-        33,
-        60
+        15, // increase juice gained per fruit by X%
+        30
       ]
     },
     {
@@ -166,7 +175,7 @@
       "maxTier": 1,
       "minLevel": 8,
       "enabled": true,
-      "values": []
+      "values": [] // get a message when a meal is complete
     }
   ],
   "Attributes": {
