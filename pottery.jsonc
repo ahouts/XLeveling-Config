@@ -19,9 +19,9 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        3,
-        6,
-        10
+        1, // Increase the amount of voxels per clay item by X
+        2,
+        4
       ]
     },
     {
@@ -31,7 +31,7 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        1,
+        1, // When copying layers, do more at once
         2,
         4
       ]
@@ -42,7 +42,7 @@
       "maxTier": 1,
       "minLevel": 3,
       "enabled": true,
-      "values": []
+      "values": [] // Don't suck
     },
     {
       "name": "perfectionist",
@@ -50,7 +50,7 @@
       "maxTier": 1,
       "minLevel": 3,
       "enabled": true,
-      "values": []
+      "values": [] // Don't suck
     },
     {
       "name": "potter",
@@ -59,7 +59,7 @@
       "minLevel": 5,
       "enabled": true,
       "values": [
-        40
+        40 // Increase XP by X%
       ]
     },
     {
@@ -67,9 +67,9 @@
       "id": 5,
       "maxTier": 3,
       "minLevel": 5,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        1,
+        1, // Chance to auto finish
         1,
         2,
         2,
@@ -85,9 +85,9 @@
       "id": 6,
       "maxTier": 3,
       "minLevel": 5,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        5,
+        5, // chance to make a duplicate
         0,
         5,
         5,
@@ -105,7 +105,7 @@
       "minLevel": 5,
       "enabled": true,
       "values": [
-        1,
+        1, // Do better, betterer
         2
       ]
     },
@@ -114,9 +114,9 @@
       "id": 8,
       "maxTier": 2,
       "minLevel": 7,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        10,
+        10, // idk what this does
         20
       ]
     },
@@ -126,7 +126,7 @@
       "maxTier": 1,
       "minLevel": 8,
       "enabled": true,
-      "values": []
+      "values": [] // Sixth sense to know when your cooking is done
     }
   ],
   "Attributes": null,
