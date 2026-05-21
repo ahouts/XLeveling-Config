@@ -19,15 +19,17 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        10,
-        2,
-        30,
-        20,
-        4,
-        60,
-        20,
-        4,
-        100
+        2, // Increase Clay Harvest yield by X% + X%*Level (Max X%)
+        1,
+        7,
+
+        7,
+        1,
+        15,
+
+        15,
+        1,
+        25
       ]
     },
     {
@@ -37,15 +39,17 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        10,
-        2,
-        30,
-        20,
-        4,
-        60,
-        20,
-        4,
-        100
+        2, // Increases yield from Peat by X% + X%*Level (Max X%)
+        1,
+        7,
+
+        7,
+        1,
+        15,
+
+        15,
+        1,
+        25
       ]
     },
     {
@@ -55,15 +59,17 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        10,
-        2,
-        30,
-        20,
-        4,
-        60,
-        20,
-        4,
-        100
+        2, // Increase yield from saltpeter by X% + X%*Level (Max X%)
+        1,
+        7,
+
+        7,
+        1,
+        15,
+
+        15,
+        1,
+        25
       ]
     },
     {
@@ -73,21 +79,23 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        1,
+        1, // Beaking a block with a shovel increases digging speed by X% + 0.X%*Level (Max X%) for stacks up to X times and lasts X seconds
         1,
         2,
         10,
         4,
+
         2,
         2,
         4,
         10,
         6,
+
         2,
-        2,
+        3,
         6,
         10,
-        8
+        6
       ]
     },
     {
@@ -97,37 +105,41 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
+        1, // Digging with a shovel has an X% + X%*Level (Max X%) to not reduce durability
+        1,
+        5,
+
         5,
         1,
-        15,
-        5,
-        2,
-        25,
-        5,
-        2,
-        45
+        10,
+
+        10,
+        1,
+        15
       ]
     },
     {
       "name": "mixedclay",
       "id": 5,
-      "maxTier": 2,
+      "maxTier": 3,
       "minLevel": 3,
       "enabled": true,
       "values": [
-        50,
-        100
+        5, // When you harvest one type of clay, you have X% chance to get another of a different tyle
+        10,
+        15
       ]
     },
     {
       "name": "quickpan",
       "id": 6,
-      "maxTier": 2,
+      "maxTier": 3,
       "minLevel": 3,
       "enabled": true,
       "values": [
-        50,
-        100
+        25, // Increase panning speed by X%
+        50
+        75
       ]
     },
     {
@@ -137,15 +149,17 @@
       "minLevel": 3,
       "enabled": true,
       "values": [
+        4, // Increase yield from panning by by X% + X%*Level (Max X%)
+        2,
+        10,
+
         10,
         2,
-        30,
         20,
-        4,
-        60,
+
         20,
-        4,
-        100
+        2,
+        30
       ]
     },
     {
@@ -155,7 +169,7 @@
       "minLevel": 5,
       "enabled": true,
       "values": [
-        40
+        40 // Increase XP by X%
       ]
     },
     {
@@ -163,9 +177,9 @@
       "id": 9,
       "maxTier": 2,
       "minLevel": 5,
-      "enabled": true,
+      "enabled": False,
       "values": [
-        2,
+        2,// Every time you break sand or gravel, X% it is automatically panned
         4
       ]
     },
@@ -174,9 +188,9 @@
       "id": 10,
       "maxTier": 2,
       "minLevel": 5,
-      "enabled": true,
+      "enabled": False,
       "values": [
-        1,
+        1, // Increase number of rare items from Scrap Detector skill by X with a chance of X%
         50,
         2,
         100
