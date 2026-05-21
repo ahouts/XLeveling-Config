@@ -19,15 +19,17 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
+        1, // Increase health by X% + X%*Level (Max X%)
+        1,
+        5,
+
         5,
         1,
-        15,
         10,
-        2,
-        30,
+
         10,
-        2,
-        50
+        1,
+        15
       ]
     },
     {
@@ -37,9 +39,9 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
+        250, // Increase maximum Satiety by X
         500,
-        1000,
-        1500
+        1000
       ]
     },
     {
@@ -47,9 +49,9 @@
       "id": 2,
       "maxTier": 2,
       "minLevel": 1,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        6,
+        6, // Increase XP gain by X for X seconds after sleeping.
         1440,
         12,
         1920
@@ -60,9 +62,9 @@
       "id": 3,
       "maxTier": 2,
       "minLevel": 3,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        6,
+        6, // Naked is powerful, no
         2,
         3,
         1,
@@ -87,23 +89,26 @@
       "minLevel": 3,
       "enabled": true,
       "values": [
+        5, // Absorb X% incoming damage, you lose Xx the absorbed damage as satiety
+        25,
+
         10,
         20,
-        20,
+
         15,
-        30,
-        10
+        15
       ]
     },
     {
       "name": "diver",
       "id": 5,
-      "maxTier": 2,
+      "maxTier": 3,
       "minLevel": 3,
       "enabled": true,
       "values": [
-        50,
-        75
+        25, // Decreases oxygen consumption by X%
+        33,
+        50
       ]
     },
     {
@@ -113,7 +118,7 @@
       "minLevel": 3,
       "enabled": true,
       "values": [
-        1,
+        1, // reduce fall damage by X and an additional X%
         10,
         2,
         20
@@ -126,7 +131,7 @@
       "minLevel": 5,
       "enabled": true,
       "values": [
-        1
+        1 // Lean X additional specializations
       ]
     },
     {
@@ -134,9 +139,9 @@
       "id": 8,
       "maxTier": 3,
       "minLevel": 5,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        15,
+        15, // Detroit become plant
         25,
         40,
         50,
@@ -149,29 +154,31 @@
       "id": 9,
       "maxTier": 2,
       "minLevel": 5,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        3,
+        3, // Get extra storage space
         6
       ]
     },
     {
       "name": "ontheroad",
       "id": 10,
-      "maxTier": 1,
+      "maxTier": 2,
       "minLevel": 5,
       "enabled": true,
       "values": [
-        10
+        7, // Increase movement speed on paths by X%
+        15
       ]
     },
     {
       "name": "scout",
       "id": 11,
-      "maxTier": 1,
+      "maxTier": 2,
       "minLevel": 5,
       "enabled": true,
       "values": [
+        2, // Increase movement speed by X%
         5
       ]
     },
@@ -182,9 +189,9 @@
       "minLevel": 5,
       "enabled": true,
       "values": [
-        25,
+        22, // Healing items heal you an additional X% over X sec
         30,
-        50,
+        33,
         30
       ]
     },
@@ -193,9 +200,9 @@
       "id": 13,
       "maxTier": 2,
       "minLevel": 6,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        100,
+        100, // increase step height by X%
         250
       ]
     },
@@ -204,9 +211,9 @@
       "id": 14,
       "maxTier": 2,
       "minLevel": 6,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        5,
+        5, // Increase movement speed by X% but increase hungerrate by X%
         10,
         10,
         20
@@ -217,9 +224,9 @@
       "id": 15,
       "maxTier": 2,
       "minLevel": 6,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        5,
+        5, // Increase healrate by X% but increase hungerrate by X%
         10,
         10,
         20
@@ -230,17 +237,17 @@
       "id": 16,
       "maxTier": 1,
       "minLevel": 7,
-      "enabled": true,
-      "values": []
+      "enabled": false,
+      "values": [] // Requires Strong Back
     },
     {
       "name": "luminiferous",
       "id": 17,
       "maxTier": 3,
       "minLevel": 8,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        4,
+        4, // Detroit become lantern
         2,
         10,
         4,
@@ -258,9 +265,9 @@
       "minLevel": 8,
       "enabled": true,
       "values": [
-        5,
+        2, // increase darkvision
         2000,
-        10,
+        3,
         2000
       ]
     },
