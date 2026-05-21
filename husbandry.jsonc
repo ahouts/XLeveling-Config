@@ -111,11 +111,11 @@
       "minLevel": 3,
       "enabled": false,
       "values": [
-        33, // Increases milk and egg yield by X%. You have X% chance to increase the generation of animal to a max of gen X
+        10, // Increases milk and egg yield by X%. You have X% chance to increase the generation of animal to a max of gen X
         2,
         5,
 
-        50,
+        20,
         3,
         10
       ]
@@ -184,21 +184,17 @@
     {
       "name": "tanner",
       "id": 9,
-      "maxTier": 3,
+      "maxTier": 2,
       "minLevel": 5,
       "enabled": false,
       "values": [
-        10, // Reduce liquid consumption when tanning leather by X% + X%*Level (Max X%) (discuss)
+        1, // Reduce liquid consumption when tanning leather by X% + X%*Level (Max X%) (discuss)
         1,
-        20,
+        5,
 
+        5,
+        1,
         10,
-        2,
-        30,
-
-        10,
-        2,
-        50
       ]
     },
     {
@@ -219,7 +215,7 @@
       "id": 11,
       "maxTier": 1,
       "minLevel": 6,
-      "enabled": false,
+      "enabled": true,
       "values": [] // make a trap that already exists
     },
     {
