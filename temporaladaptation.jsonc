@@ -8,7 +8,7 @@
   "expMult": 100.0,
   "expValue": 8.0,
   "expEquation": "quadratic",
-  "enabled": true,
+  "enabled": false,
   "expLossOnDeath": 0.0,
   "maxExpLossOnDeath": 0.0,
   "abilities": [
@@ -17,7 +17,7 @@
       "id": 0,
       "maxTier": 3,
       "minLevel": 1,
-      "enabled": true,
+      "enabled": false,
       "values": [
         5,
         1,
@@ -35,7 +35,7 @@
       "id": 1,
       "maxTier": 3,
       "minLevel": 1,
-      "enabled": true,
+      "enabled": false,
       "values": [
         10,
         2,
@@ -53,7 +53,7 @@
       "id": 2,
       "maxTier": 3,
       "minLevel": 1,
-      "enabled": true,
+      "enabled": false,
       "values": [
         10,
         2,
@@ -71,7 +71,7 @@
       "id": 3,
       "maxTier": 2,
       "minLevel": 1,
-      "enabled": true,
+      "enabled": false,
       "values": [
         50,
         100
@@ -82,7 +82,7 @@
       "id": 4,
       "maxTier": 3,
       "minLevel": 3,
-      "enabled": true,
+      "enabled": false,
       "values": [
         11,
         22,
@@ -94,7 +94,7 @@
       "id": 5,
       "maxTier": 2,
       "minLevel": 3,
-      "enabled": true,
+      "enabled": false,
       "values": [
         10,
         20
@@ -105,7 +105,7 @@
       "id": 6,
       "maxTier": 1,
       "minLevel": 5,
-      "enabled": true,
+      "enabled": false,
       "values": [
         40
       ]
@@ -115,7 +115,7 @@
       "id": 7,
       "maxTier": 2,
       "minLevel": 5,
-      "enabled": true,
+      "enabled": false,
       "values": [
         10,
         20
@@ -126,7 +126,7 @@
       "id": 8,
       "maxTier": 2,
       "minLevel": 5,
-      "enabled": true,
+      "enabled": false,
       "values": [
         10,
         20
@@ -137,7 +137,7 @@
       "id": 9,
       "maxTier": 3,
       "minLevel": 10,
-      "enabled": true,
+      "enabled": false,
       "values": [
         33,
         66,
@@ -149,7 +149,7 @@
       "id": 10,
       "maxTier": 1,
       "minLevel": 10,
-      "enabled": true,
+      "enabled": false,
       "values": []
     }
   ],
