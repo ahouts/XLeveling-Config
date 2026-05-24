@@ -186,7 +186,7 @@
       "id": 9,
       "maxTier": 2,
       "minLevel": 5,
-      "enabled": false,
+      "enabled": true,
       "values": [
         1, // Reduce liquid consumption when tanning leather by X% + X%*Level (Max X%) (discuss)
         1,
