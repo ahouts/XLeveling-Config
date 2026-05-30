@@ -220,7 +220,7 @@
   },
   "ClassExpMultipliers": {
     "commoner": 0.1,
-    "miner": 0.2,
+    "miner": 0.5,
     "hunter": -0.2,
     "malefactor": -0.1,
     "clockmaker": 0.15,
@@ -229,6 +229,25 @@
     "archer": -0.1,
     "vanguard": 0.05,
     "gatherer": -0.15,
-    "mercenary": 0.05
+    "mercenary": 0.05,
+    "alchemyst": -0.2,
+    "artisan": -0.2,
+    "chef": -0.2,
+    "homesteader": -0.2,
+    "lumberjack": -0.2,
+    "mason": 0.0,
+    "merchant": -0.2,
+    "mystic": -0.2,
+    "smith": 0.0,
+    "medic": 0.0,
+    "alchemist": -0.2,
+    "blackguardgloo": 0.0,
+    "clockmakergloo": -0.1,
+    "commonergloo": 0.0,
+    "huntergloo": -0.2,
+    "malefactorgloo": -0.1,
+    "oathkeeper": -0.2,
+    "tailorgloo": -0.2,
+    "rustmage": -0.2
   }
 }

@@ -141,7 +141,7 @@
     {
       "name": "happymeal",
       "id": 8,
-      "maxTier": 3,
+      "maxTier": 4,
       "minLevel": 5,
       "enabled": false,
       "values": [
@@ -155,7 +155,10 @@
 
         20,
         2,
-        60
+        60,
+        20,
+        2,
+        80
       ]
     },
     {
@@ -189,11 +192,30 @@
     "malefactor": 0.05,
     "clockmaker": 0.0,
     "blackguard": -0.15,
-    "miner": -0.15,
+    "miner": -0.2,
     "forager": 0.2,
     "archer": 0.1,
     "vanguard": -0.2,
     "gatherer": 0.2,
-    "mercenary": -0.1
+    "mercenary": -0.1,
+    "alchemyst": -0.1,
+    "artisan": -0.2,
+    "chef": 0.5,
+    "homesteader": 0.15,
+    "lumberjack": -0.2,
+    "mason": -0.2,
+    "merchant": 0.0,
+    "mystic": -0.2,
+    "smith": -0.2,
+    "medic": -0.2,
+    "alchemist": -0.2,
+    "blackguardgloo": -0.2,
+    "clockmakergloo": -0.2,
+    "commonergloo": 0.0,
+    "huntergloo": 0.0,
+    "malefactorgloo": -0.05,
+    "oathkeeper": -0.2,
+    "tailorgloo": 0.0,
+    "rustmage": -0.2
   }
 }
