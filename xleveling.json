@@ -9,6 +9,7 @@
   "skillBookExpMult": 0.5,
   "disabledRequirements": [],
   "trackExpGain": false,
-  "configVersion": 6,
-  "disableAllClassRequirements": false
+  "configVersion": 7,
+  "disableAllClassRequirements": false,
+  "deleteDataOnDeath": false
 }

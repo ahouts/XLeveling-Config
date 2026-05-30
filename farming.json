@@ -210,6 +210,24 @@
     "archer": -0.05,
     "vanguard": 0.1,
     "gatherer": 0.1,
-    "mercenary": 0.0
+    "mercenary": 0.0,
+    "alchemyst": -0.1,
+    "artisan": -0.2,
+    "chef": -0.15,
+    "homesteader": 0.5,
+    "lumberjack": -0.1,
+    "mason": -0.2,
+    "merchant": -0.2,
+    "mystic": -0.2,
+    "smith": -0.2,
+    "alchemist": -0.05,
+    "blackguardgloo": -0.2,
+    "clockmakergloo": -0.2,
+    "commonergloo": 0.0,
+    "huntergloo": -0.2,
+    "malefactorgloo": -0.2,
+    "oathkeeper": -0.2,
+    "tailorgloo": 0.1,
+    "rustmage": -0.2
   }
 }
