@@ -205,6 +205,24 @@
       "values": [
         100 // When quenching, instead of breaking, the tool breaks and has to be chiseled down
       ]
+    },
+    {
+      "name": "perfectquenching",
+      "id": 16,
+      "maxTier": 1,
+      "minLevel": 5,
+      "enabled": false,
+      "values": [
+        100
+      ]
+    },
+    {
+      "name": "bitforging",
+      "id": 17,
+      "maxTier": 1,
+      "minLevel": 3,
+      "enabled": true,
+      "values": []
     }
   ],
   "Attributes": {
