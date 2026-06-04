@@ -222,7 +222,7 @@
       "maxTier": 1,
       "minLevel": 3,
       "enabled": true,
-      "values": []
+      "values": [] // you can apply hot nuggets to work items like an ingot
     }
   ],
   "Attributes": {
