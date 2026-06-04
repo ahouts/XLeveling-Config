@@ -203,6 +203,24 @@
       "values": [
         100
       ]
+    },
+    {
+      "name": "perfectquenching",
+      "id": 16,
+      "maxTier": 1,
+      "minLevel": 5,
+      "enabled": false,
+      "values": [
+        100
+      ]
+    },
+    {
+      "name": "bitforging",
+      "id": 17,
+      "maxTier": 1,
+      "minLevel": 3,
+      "enabled": true,
+      "values": []
     }
   ],
   "Attributes": {

@@ -145,7 +145,7 @@
     }
   ],
   "Attributes": {
-    "treasureDrops": ""
+    "treasureDrops": "game:gear-temporal:1,game:gear-rusty:15,game:bone:30,game:cattailroot:40,game:cattailtops:40,game:stick:50,game:flint:50"
   },
   "ClassExpMultipliers": {
     "commoner": 0.1,

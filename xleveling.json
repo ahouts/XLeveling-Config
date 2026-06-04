@@ -11,5 +11,6 @@
   "trackExpGain": false,
   "configVersion": 7,
   "disableAllClassRequirements": false,
-  "deleteDataOnDeath": false
+  "deleteDataOnDeath": false,
+  "consumeSkillBookOnStudy": false
 }
