@@ -19,12 +19,12 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        10, // Increases damage dealt to animals, while reducing damage received by animals by X% + X%*Level (Max X%)
-        0,
+        1, // Increases damage dealt to animals, while reducing damage received by animals by X% + X%*Level (Max X%)
+        1,
         10,
 
-        10,
-        1,
+        5,
+        2,
         20,
 
         10,
@@ -45,13 +45,13 @@
         1, // idk what this does
         5, // idk what this does
 
-        5,
         1,
+        2,
         10,
         1, // idk what this does
         7, // idk what this does
 
-        10,
+        5,
         2,
         20,
         1, // idk what this does
@@ -71,13 +71,13 @@
         1, // idk what this does
         5, // idk what this does
 
-        5,
         1,
+        2,
         10,
         1, // idk what this does
         7, // idk what this does
 
-        10,
+        5,
         2,
         20,
         1, // idk what this does
@@ -95,12 +95,12 @@
         1,
         10,
 
-        10,
-        1,
+        5,
+        2,
         20,
 
-        20,
-        1,
+        10,
+        2,
         30
       ]
     },
@@ -133,8 +133,8 @@
         1,
         4,
 
-        20,
-        1,
+        10,
+        2,
         40,
         1,
         8
@@ -172,12 +172,12 @@
         1,
         10,
 
-        10,
-        1,
+        5,
+        2,
         20,
 
-        20,
-        1,
+        10,
+        2,
         30
       ]
     },
@@ -192,7 +192,7 @@
         1,
         5,
 
-        5,
+        2,
         1,
         10,
       ]
