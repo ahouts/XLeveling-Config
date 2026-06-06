@@ -23,11 +23,11 @@
         1,
         5,
 
-        5,
+        2,
         1,
         10,
 
-        10,
+        5,
         1,
         15
       ]
@@ -174,12 +174,13 @@
     {
       "name": "scout",
       "id": 11,
-      "maxTier": 2,
+      "maxTier": 3,
       "minLevel": 5,
       "enabled": true,
       "values": [
         2, // Increase movement speed by X%
-        5
+        5,
+        8
       ]
     },
     {
