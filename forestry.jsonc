@@ -23,12 +23,12 @@
         1,
         5,
 
-        5,
+        2,
         1,
         10,
 
-        10,
-        1,
+        5,
+        2,
         15
       ]
     },
@@ -54,11 +54,11 @@
         2,
         10,
 
-        10,
+        5,
         2,
         20,
 
-        20,
+        10,
         2,
         30
       ]
@@ -68,7 +68,7 @@
       "id": 3,
       "maxTier": 1,
       "minLevel": 1,
-      "enabled": false,
+      "enabled": true,
       "values": [
         2 // Every time you cut down a PINE tree, X% per log a resin drops
       ]
@@ -98,7 +98,7 @@
         10,
         30,
 
-        2,
+        1,
         2,
         4,
         10,
@@ -122,12 +122,12 @@
         1,
         5,
 
-        5,
+        2,
         1,
         10,
 
-        10,
-        1,
+        5,
+        2,
         15
       ]
     },
@@ -150,7 +150,7 @@
       "values": [
         10, // receive X% more charcoal from charcoal piles
         20,
-        30
+        33
       ]
     },
     {
