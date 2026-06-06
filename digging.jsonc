@@ -19,16 +19,16 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        2, // Increase Clay Harvest yield by X% + X%*Level (Max X%)
+        1, // Increase Clay Harvest yield by X% + X%*Level (Max X%)
         1,
         7,
 
-        7,
+        4,
         1,
         15,
 
-        15,
-        1,
+        8,
+        2,
         25
       ]
     },
@@ -39,16 +39,16 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        2, // Increases yield from Peat by X% + X%*Level (Max X%)
+        1, // Increases yield from Peat by X% + X%*Level (Max X%)
         1,
         7,
 
-        7,
+        4,
         1,
         15,
 
-        15,
-        1,
+        8,
+        2,
         25
       ]
     },
@@ -59,16 +59,16 @@
       "minLevel": 1,
       "enabled": true,
       "values": [
-        2, // Increase yield from saltpeter by X% + X%*Level (Max X%)
+        1, // Increase yield from saltpeter by X% + X%*Level (Max X%)
         1,
         7,
 
-        7,
+        4,
         1,
         15,
 
-        15,
-        1,
+        8,
+        2,
         25
       ]
     },
@@ -109,12 +109,12 @@
         1,
         5,
 
-        5,
+        1,
         1,
         10,
 
-        10,
         1,
+        2,
         15
       ]
     },
@@ -137,9 +137,9 @@
       "minLevel": 3,
       "enabled": true,
       "values": [
-        25, // Increase panning speed by X%
-        50,
-        75
+        50, // Increase panning speed by X%
+        75,
+        100
       ]
     },
     {
@@ -149,15 +149,15 @@
       "minLevel": 3,
       "enabled": true,
       "values": [
-        4, // Increase yield from panning by by X% + X%*Level (Max X%)
-        2,
+        1, // Increase yield from panning by by X% + X%*Level (Max X%)
+        1,
         10,
 
-        10,
+        5,
         2,
         20,
 
-        20,
+        10,
         2,
         30
       ]
