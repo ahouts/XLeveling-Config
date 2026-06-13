@@ -298,9 +298,9 @@
       "id": 21,
       "maxTier": 3,
       "minLevel": 3,
-      "enabled": true,
+      "enabled": false,
       "values": [
-        5,
+        5, // X% chance not to consume skill book when reading
         8,
         16
       ]
