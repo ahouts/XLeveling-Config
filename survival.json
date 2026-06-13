@@ -284,6 +284,18 @@
       "values": [
         200
       ]
+    },
+    {
+      "name": "carefulreader",
+      "id": 21,
+      "maxTier": 3,
+      "minLevel": 3,
+      "enabled": true,
+      "values": [
+        5,
+        8,
+        16
+      ]
     }
   ],
   "Attributes": {

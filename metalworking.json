@@ -187,11 +187,16 @@
     {
       "name": "automatedsmithing",
       "id": 14,
-      "maxTier": 1,
+      "maxTier": 6,
       "minLevel": 10,
       "enabled": true,
       "values": [
-        1
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
       ]
     },
     {
