@@ -179,10 +179,13 @@
     {
       "name": "bloomeryexpert",
       "id": 13,
-      "maxTier": 1,
+      "maxTier": 2,
       "minLevel": 8,
       "enabled": true,
-      "values": []
+      "values": [
+        1,
+        2
+      ]
     },
     {
       "name": "automatedsmithing",
@@ -233,7 +236,7 @@
     "expPerHit": "0.02",
     "helveHammerPenalty": "0.75",
     "useVanillaBits": "True",
-    "bitsForIngot": "21",
+    "bitsForIngot": "20",
     "chiselRecipesRatio": "0.5",
     "allowFinishingTouchExploit": "False",
     "qualitySteps": "0"
