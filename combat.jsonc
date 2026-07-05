@@ -79,9 +79,9 @@
       "minLevel": 5,
       "enabled": true,
       "values": [
-        15,
-        25,
-        35
+        10, // increases spear aiming speed by X%
+        20,
+        30
       ]
     },
     {

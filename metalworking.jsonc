@@ -183,9 +183,9 @@
       "maxTier": 2,
       "minLevel": 8,
       "enabled": false,
-      "values": [ // Make bloomeries not break
-        1,
-        2
+      "values": [
+        1, // allows you to take finished products out of bloomeries without breaking them
+        2  // smelts bloomery contents directly into ingots
       ]
     },
     {
