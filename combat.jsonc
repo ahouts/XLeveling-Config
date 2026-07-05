@@ -73,9 +73,21 @@
       ]
     },
     {
-      "name": "tank",
+      "name": "swiftspear",
       "id": 3,
       "maxTier": 3,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        15,
+        25,
+        35
+      ]
+    },
+    {
+      "name": "tank",
+      "id": 4,
+      "maxTier": 2,
       "minLevel": 1,
       "enabled": true,
       "values": [
@@ -94,7 +106,7 @@
     },
     {
       "name": "defender",
-      "id": 4,
+      "id": 5,
       "maxTier": 2,
       "minLevel": 1,
       "enabled": true,
@@ -105,7 +117,7 @@
     },
     {
       "name": "guardian",
-      "id": 5,
+      "id": 6,
       "maxTier": 2,
       "minLevel": 1,
       "enabled": true,
@@ -116,7 +128,7 @@
     },
     {
       "name": "toolmastery",
-      "id": 6,
+      "id": 7,
       "maxTier": 3,
       "minLevel": 1,
       "enabled": false,
@@ -136,7 +148,7 @@
     },
     {
       "name": "ironfist",
-      "id": 7,
+      "id": 8,
       "maxTier": 3,
       "minLevel": 1,
       "enabled": true,
@@ -148,7 +160,7 @@
     },
     {
       "name": "monk",
-      "id": 8,
+      "id": 9,
       "maxTier": 3,
       "minLevel": 1,
       "enabled": true,
@@ -160,7 +172,7 @@
     },
     {
       "name": "looter",
-      "id": 9,
+      "id": 10,
       "maxTier": 2,
       "minLevel": 1,
       "enabled": true,
@@ -176,7 +188,7 @@
     },
     {
       "name": "heavyarmorexpert",
-      "id": 10,
+      "id": 11,
       "maxTier": 2,
       "minLevel": 3,
       "enabled": true,
@@ -190,7 +202,7 @@
     },
     {
       "name": "lightarmorexpert",
-      "id": 11,
+      "id": 12,
       "maxTier": 2,
       "minLevel": 3,
       "enabled": true,
@@ -201,7 +213,7 @@
     },
     {
       "name": "armoredagility",
-      "id": 12,
+      "id": 13,
       "maxTier": 3,
       "minLevel": 3,
       "enabled": true,
@@ -213,7 +225,7 @@
     },
     {
       "name": "warrior",
-      "id": 13,
+      "id": 14,
       "maxTier": 1,
       "minLevel": 5,
       "enabled": true,
@@ -223,7 +235,7 @@
     },
     {
       "name": "bully",
-      "id": 14,
+      "id": 15,
       "maxTier": 3,
       "minLevel": 5,
       "enabled": true,
@@ -243,7 +255,7 @@
     },
     {
       "name": "sniper",
-      "id": 15,
+      "id": 16,
       "maxTier": 3,
       "minLevel": 5,
       "enabled": true,
@@ -255,7 +267,7 @@
     },
     {
       "name": "freshflesh",
-      "id": 16,
+      "id": 17,
       "maxTier": 3,
       "minLevel": 5,
       "enabled": false,
@@ -267,7 +279,7 @@
     },
     {
       "name": "shovelknight",
-      "id": 17,
+      "id": 18,
       "maxTier": 2,
       "minLevel": 5,
       "enabled": false,
@@ -280,7 +292,7 @@
     },
     {
       "name": "adrenalinerush",
-      "id": 18,
+      "id": 19,
       "maxTier": 2,
       "minLevel": 7,
       "enabled": false,
@@ -300,7 +312,7 @@
     },
     {
       "name": "vampire",
-      "id": 19,
+      "id": 20,
       "maxTier": 3,
       "minLevel": 7,
       "enabled": false,
@@ -315,7 +327,7 @@
     },
     {
       "name": "drunkenmaster",
-      "id": 20,
+      "id": 21,
       "maxTier": 1,
       "minLevel": 8,
       "enabled": false,
@@ -326,7 +338,7 @@
     },
     {
       "name": "burningrage",
-      "id": 21,
+      "id": 22,
       "maxTier": 3,
       "minLevel": 10,
       "enabled": false,
@@ -338,7 +350,7 @@
     },
     {
       "name": "bloodlust",
-      "id": 22,
+      "id": 23,
       "maxTier": 1,
       "minLevel": 10,
       "enabled": false,
@@ -351,7 +363,7 @@
     },
     {
       "name": "monsterexpert",
-      "id": 23,
+      "id": 24,
       "maxTier": 1,
       "minLevel": 10,
       "enabled": false,
