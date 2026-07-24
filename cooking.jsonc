@@ -180,6 +180,14 @@
       "minLevel": 8,
       "enabled": true,
       "values": [] // get a message when a meal is complete
+    },
+    {
+      "name": "refineddilution",
+      "id": 11,
+      "maxTier": 1,
+      "minLevel": 5,
+      "enabled": false,
+      "values": [] // dilution also applies to inedible products
     }
   ],
   "Attributes": {
