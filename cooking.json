@@ -170,6 +170,14 @@
       "minLevel": 8,
       "enabled": true,
       "values": []
+    },
+    {
+      "name": "refineddilution",
+      "id": 11,
+      "maxTier": 1,
+      "minLevel": 5,
+      "enabled": true,
+      "values": []
     }
   ],
   "Attributes": {
