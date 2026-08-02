@@ -1,0 +1,87 @@
+{
+  "note": "If you change the maximal tier of an ability you must also adjust the number of values! It is recommended to make backups from edited config files. If an error occurs your changes will be overwritten by default values. Values must be integers.",
+  "name": "tailoring",
+  "id": 11,
+  "maxLevel": 25,
+  "minLevel": 1,
+  "expBase": 40.0,
+  "expMult": 10.0,
+  "expValue": 0.8,
+  "expEquation": "quadratic",
+  "enabled": true,
+  "expLossOnDeath": 0.0,
+  "maxExpLossOnDeath": 0.0,
+  "abilities": [
+    {
+      "name": "patternmemory",
+      "id": 0,
+      "maxTier": 3,
+      "minLevel": 3,
+      "enabled": false,
+      "values": [
+        5, // X% chance to craft without consuming materials
+        10,
+        15
+      ]
+    },
+    {
+      "name": "reinforcedseams",
+      "id": 1,
+      "maxTier": 3,
+      "minLevel": 3,
+      "enabled": true,
+      "values": [
+        2, // armor you craft gets +X% more protection
+        5,
+        10
+      ]
+    },
+    {
+      "name": "fibersorter",
+      "id": 2,
+      "maxTier": 3,
+      "minLevel": 3,
+      "enabled": true,
+      "values": [
+        5, // X% more fibers when harvesting
+        10,
+        20
+      ]
+    },
+    {
+      "name": "winterweaver",
+      "id": 3,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        4, // clothing you craft provdes X% more warmth
+        10,
+        20
+      ]
+    },
+    {
+      "name": "wanderingtailor",
+      "id": 4,
+      "maxTier": 2,
+      "minLevel": 7,
+      "enabled": false,
+      "values": [
+        10, // while wearing a full set of your clothing, increase all stats by X%
+        20
+      ]
+    },
+    {
+      "name": "couturier",
+      "id": 5,
+      "maxTier": 1,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        40 // +X% tailor XP
+      ]
+    }
+  ],
+  "Attributes": null,
+  "ClassExpMultipliers": {}
+}

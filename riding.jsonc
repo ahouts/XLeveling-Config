@@ -1,0 +1,186 @@
+{
+  "note": "If you change the maximal tier of an ability you must also adjust the number of values! It is recommended to make backups from edited config files. If an error occurs your changes will be overwritten by default values. Values must be integers.",
+  "name": "riding",
+  "id": 13,
+  "maxLevel": 25,
+  "minLevel": 1,
+  "expBase": 40.0,
+  "expMult": 10.0,
+  "expValue": 0.8,
+  "expEquation": "quadratic",
+  "enabled": true,
+  "expLossOnDeath": 0.0,
+  "maxExpLossOnDeath": 0.0,
+  "abilities": [
+    {
+      "name": "steadyreins",
+      "id": 0,
+      "maxTier": 3,
+      "minLevel": 3,
+      "enabled": true,
+      "values": [
+        1, // your mount is X% + X% per level faster, max X%
+        1,
+        5,
+
+        1,
+        2,
+        10,
+
+        5,
+        2,
+        20
+      ]
+    },
+    {
+      "name": "lighttack",
+      "id": 1,
+      "maxTier": 1,
+      "minLevel": 1,
+      "enabled": false,
+      "values": [] // no saddle needed
+    },
+    {
+      "name": "tirelesstrot",
+      "id": 2,
+      "maxTier": 3,
+      "minLevel": 4,
+      "enabled": true,
+      "values": [
+        15, // increases the chances to stay mounted by X%
+        30,
+        45
+      ]
+    },
+    {
+      "name": "trailprovisions",
+      "id": 3,
+      "maxTier": 3,
+      "minLevel": 3,
+      "enabled": false,
+      "values": [
+        20, // you need X% less food
+        40,
+        60
+      ]
+    },
+    {
+      "name": "saddlesmith",
+      "id": 4,
+      "maxTier": 3,
+      "minLevel": 4,
+      "enabled": false,
+      "values": [
+        25,
+        50,
+        75
+      ]
+    },
+    {
+      "name": "vet",
+      "id": 5,
+      "maxTier": 2,
+      "minLevel": 4,
+      "enabled": true,
+      "values": [
+        5, // your mount regens X% health per minute while riding
+        10
+      ]
+    },
+    {
+      "name": "lightcavalry",
+      "id": 6,
+      "maxTier": 3,
+      "minLevel": 7,
+      "enabled": false,
+      "values": [
+        20, // mod shit
+        35,
+        50
+      ]
+    },
+    {
+      "name": "heavycavalry",
+      "id": 7,
+      "maxTier": 3,
+      "minLevel": 7,
+      "enabled": false,
+      "values": [
+        20,
+        35,
+        50
+      ]
+    },
+    {
+      "name": "skyrider",
+      "id": 8,
+      "maxTier": 3,
+      "minLevel": 7,
+      "enabled": false,
+      "values": [
+        20,
+        35,
+        50
+      ]
+    },
+    {
+      "name": "mountedcombatant",
+      "id": 9,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": false,
+      "values": [
+        15,
+        30,
+        45
+      ]
+    },
+    {
+      "name": "longrider",
+      "id": 10,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": false,
+      "values": [
+        25,
+        50,
+        75
+      ]
+    },
+    {
+      "name": "packanimal",
+      "id": 11,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": false,
+      "values": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "multiseatmaster",
+      "id": 12,
+      "maxTier": 2,
+      "minLevel": 8,
+      "enabled": false,
+      "values": [
+        10,
+        20
+      ]
+    },
+    {
+      "name": "equestrian",
+      "id": 13,
+      "maxTier": 1,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        40 // increase riding experience gained by X%
+      ]
+    }
+  ],
+  "Attributes": null,
+  "ClassExpMultipliers": {}
+}

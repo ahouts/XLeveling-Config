@@ -366,8 +366,31 @@
       "id": 24,
       "maxTier": 1,
       "minLevel": 10,
-      "enabled": false,
-      "values": [] // Not Listed
+      "enabled": true,
+      "values": [] // you wil receive some additional information about the enemies you encounter
+    },
+    {
+      "name": "carefulshooter",
+      "id": 25,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        1, // firing bow, sling, or crossbow, there is a X% + X% per level (max X%) the weapon does not lose durability
+        1,
+        5,
+        3, // there is a X% chance a sling does not consume a rock
+
+        1,
+        1,
+        10,
+        6,
+
+        1,
+        2,
+        15,
+        10
+      ]
     }
   ],
   "Attributes": {

@@ -154,6 +154,76 @@
         1,
         35
       ]
+    },
+    {
+      "name": "freshfish",
+      "id": 8,
+      "maxTier": 3,
+      "minLevel": 3,
+      "enabled": true,
+      "values": [
+        25, // caught fish spoil X% more slowly
+        50,
+        75
+      ]
+    },
+    {
+      "name": "moonlitwaters",
+      "id": 9,
+      "maxTier": 3,
+      "minLevel": 3,
+      "enabled": true,
+      "values": [
+        20, // nightime bite chance is further increased by X%
+        40,
+        60
+      ]
+    },
+    {
+      "name": "riverspecialist",
+      "id": 10,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        20, // X% bite chance in flowing fresh water
+        55,
+        100
+      ]
+    },
+    {
+      "name": "coastalmaster",
+      "id": 11,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        20, // X% bite chance in salt water
+        35,
+        50
+      ]
+    },
+    {
+      "name": "icefisher",
+      "id": 12,
+      "maxTier": 2,
+      "minLevel": 6,
+      "enabled": false,
+      "values": [
+        50, // reduce the effects of cold by X% while wholding a fishing rod
+        100
+      ]
+    },
+    {
+      "name": "ancientmariner",
+      "id": 13,
+      "maxTier": 2,
+      "minLevel": 7,
+      "enabled": false,
+      "values": [
+        40, // reduce the hunger drain by 40% while holding a fishing rod
+        70
+      ]
     }
   ],
   "Attributes": {

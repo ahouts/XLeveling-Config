@@ -208,6 +208,30 @@
       "minLevel": 10,
       "enabled": false,
       "values": [] // You can harvest skeps without breaking them
+    },
+    {
+      "name": "cuttingrhythm",
+      "id": 15,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        10, // reduces the time before collecting the next cutting from a bush by X%
+        15,
+        25
+      ]
+    },
+    {
+      "name": "bushnursery",
+      "id": 16,
+      "maxTier": 3,
+      "minLevel": 3,
+      "enabled": true,
+      "values": [
+        85, // a planted cutting grows into a bush in X% of the normal time
+        70,
+        60
+      ]
     }
   ],
   "Attributes": {

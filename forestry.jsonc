@@ -78,10 +78,10 @@
       "id": 4,
       "maxTier": 3,
       "minLevel": 3,
-      "enabled": false,
+      "enabled": true,
       "values": [
-        87, // Planted trees grow takes X% of the time to fully grow (Just use the world settings)
-        74,
+        85, // Planted trees only takes X% of the time to fully grow
+        70,
         60
       ]
     },

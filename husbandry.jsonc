@@ -243,6 +243,16 @@
         1,
         30
       ]
+    },
+    {
+      "name": "hunterbag",
+      "id": 14,
+      "maxTier": 1,
+      "minLevel": 1,
+      "enabled": false,
+      "values": [
+        1 // adds an extra bag slot that can only hold hunting bag from the butchering mod
+      ]
     }
   ],
   "Attributes": null,

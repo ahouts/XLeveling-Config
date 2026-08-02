@@ -1,0 +1,116 @@
+{
+  "note": "If you change the maximal tier of an ability you must also adjust the number of values! It is recommended to make backups from edited config files. If an error occurs your changes will be overwritten by default values. Values must be integers.",
+  "name": "sailing",
+  "id": 14,
+  "maxLevel": 25,
+  "minLevel": 1,
+  "expBase": 40.0,
+  "expMult": 10.0,
+  "expValue": 0.8,
+  "expEquation": "quadratic",
+  "enabled": true,
+  "expLossOnDeath": 0.0,
+  "maxExpLossOnDeath": 0.0,
+  "abilities": [
+    {
+      "name": "steadyhelm",
+      "id": 0,
+      "maxTier": 3,
+      "minLevel": 1,
+      "enabled": true,
+      "values": [
+        1, // your boat is X% + X% per level faster, max X%
+        1,
+        5,
+
+        1,
+        2,
+        10,
+
+        5,
+        2,
+        20
+      ]
+    },
+    {
+      "name": "crewcaptain",
+      "id": 1,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        5, // +X% boat speed for each additional crew member
+        10,
+        15
+      ]
+    },
+    {
+      "name": "shipwright",
+      "id": 2,
+      "maxTier": 3,
+      "minLevel": 3,
+      "enabled": false,
+      "values": [
+        20, // +X% boat construction speed
+        40,
+        60
+      ]
+    },
+    {
+      "name": "coastalpilot",
+      "id": 3,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        10, // on the coast, speed and handling are increased by X%
+        15,
+        25
+      ]
+    },
+    {
+      "name": "opensea",
+      "id": 4,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        10, // on the open sea, speed and handling are increased by X%
+        15,
+        25
+      ]
+    },
+    {
+      "name": "trawler",
+      "id": 5,
+      "maxTier": 3,
+      "minLevel": 6,
+      "enabled": false,
+      "values": [
+        5, // get fish for no reason
+        10,
+        15
+      ]
+    },
+    {
+      "name": "wavereader",
+      "id": 6,
+      "maxTier": 1,
+      "minLevel": 6,
+      "enabled": false,
+      "values": [] // displays the forecast
+    },
+    {
+      "name": "seadog",
+      "id": 7,
+      "maxTier": 1,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        40 // +X% sailing exp
+      ]
+    }
+  ],
+  "Attributes": null,
+  "ClassExpMultipliers": {}
+}
