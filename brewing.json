@@ -1,0 +1,84 @@
+{
+  "note": "If you change the maximal tier of an ability you must also adjust the number of values! It is recommended to make backups from edited config files. If an error occurs your changes will be overwritten by default values. Values must be integers.",
+  "name": "brewing",
+  "id": 12,
+  "maxLevel": 25,
+  "minLevel": 1,
+  "expBase": 40.0,
+  "expMult": 10.0,
+  "expValue": 0.8,
+  "expEquation": "quadratic",
+  "enabled": true,
+  "expLossOnDeath": 0.0,
+  "maxExpLossOnDeath": 0.0,
+  "abilities": [
+    {
+      "name": "hopwhisperer",
+      "id": 0,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        20,
+        35,
+        50
+      ]
+    },
+    {
+      "name": "vintner",
+      "id": 1,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        20,
+        35,
+        50
+      ]
+    },
+    {
+      "name": "meadmaster",
+      "id": 2,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        20,
+        35,
+        50
+      ]
+    },
+    {
+      "name": "hangoverresistance",
+      "id": 3,
+      "maxTier": 3,
+      "minLevel": 3,
+      "enabled": true,
+      "values": [
+        30,
+        60,
+        90
+      ]
+    },
+    {
+      "name": "tipplerstolerance",
+      "id": 4,
+      "maxTier": 1,
+      "minLevel": 7,
+      "enabled": true,
+      "values": []
+    },
+    {
+      "name": "masterbrewmaster",
+      "id": 5,
+      "maxTier": 1,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        40
+      ]
+    }
+  ],
+  "Attributes": null,
+  "ClassExpMultipliers": {}
+}

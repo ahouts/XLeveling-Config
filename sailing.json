@@ -1,0 +1,114 @@
+{
+  "note": "If you change the maximal tier of an ability you must also adjust the number of values! It is recommended to make backups from edited config files. If an error occurs your changes will be overwritten by default values. Values must be integers.",
+  "name": "sailing",
+  "id": 14,
+  "maxLevel": 25,
+  "minLevel": 1,
+  "expBase": 40.0,
+  "expMult": 10.0,
+  "expValue": 0.8,
+  "expEquation": "quadratic",
+  "enabled": true,
+  "expLossOnDeath": 0.0,
+  "maxExpLossOnDeath": 0.0,
+  "abilities": [
+    {
+      "name": "steadyhelm",
+      "id": 0,
+      "maxTier": 3,
+      "minLevel": 1,
+      "enabled": true,
+      "values": [
+        10,
+        1,
+        20,
+        20,
+        2,
+        40,
+        20,
+        2,
+        60
+      ]
+    },
+    {
+      "name": "crewcaptain",
+      "id": 1,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        5,
+        10,
+        15
+      ]
+    },
+    {
+      "name": "shipwright",
+      "id": 2,
+      "maxTier": 3,
+      "minLevel": 3,
+      "enabled": true,
+      "values": [
+        20,
+        40,
+        60
+      ]
+    },
+    {
+      "name": "coastalpilot",
+      "id": 3,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        20,
+        35,
+        50
+      ]
+    },
+    {
+      "name": "opensea",
+      "id": 4,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        20,
+        35,
+        50
+      ]
+    },
+    {
+      "name": "trawler",
+      "id": 5,
+      "maxTier": 3,
+      "minLevel": 6,
+      "enabled": true,
+      "values": [
+        5,
+        10,
+        15
+      ]
+    },
+    {
+      "name": "wavereader",
+      "id": 6,
+      "maxTier": 1,
+      "minLevel": 6,
+      "enabled": true,
+      "values": []
+    },
+    {
+      "name": "seadog",
+      "id": 7,
+      "maxTier": 1,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        40
+      ]
+    }
+  ],
+  "Attributes": null,
+  "ClassExpMultipliers": {}
+}

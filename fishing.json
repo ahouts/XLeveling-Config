@@ -142,6 +142,76 @@
         1,
         35
       ]
+    },
+    {
+      "name": "freshfish",
+      "id": 8,
+      "maxTier": 3,
+      "minLevel": 3,
+      "enabled": true,
+      "values": [
+        25,
+        50,
+        75
+      ]
+    },
+    {
+      "name": "moonlitwaters",
+      "id": 9,
+      "maxTier": 3,
+      "minLevel": 3,
+      "enabled": true,
+      "values": [
+        20,
+        40,
+        60
+      ]
+    },
+    {
+      "name": "riverspecialist",
+      "id": 10,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        20,
+        55,
+        100
+      ]
+    },
+    {
+      "name": "coastalmaster",
+      "id": 11,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        20,
+        35,
+        50
+      ]
+    },
+    {
+      "name": "icefisher",
+      "id": 12,
+      "maxTier": 2,
+      "minLevel": 6,
+      "enabled": true,
+      "values": [
+        50,
+        100
+      ]
+    },
+    {
+      "name": "ancientmariner",
+      "id": 13,
+      "maxTier": 2,
+      "minLevel": 7,
+      "enabled": true,
+      "values": [
+        40,
+        70
+      ]
     }
   ],
   "Attributes": {

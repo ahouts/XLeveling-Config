@@ -194,6 +194,30 @@
       "minLevel": 10,
       "enabled": true,
       "values": []
+    },
+    {
+      "name": "cuttingrhythm",
+      "id": 15,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        20,
+        35,
+        50
+      ]
+    },
+    {
+      "name": "bushnursery",
+      "id": 16,
+      "maxTier": 3,
+      "minLevel": 3,
+      "enabled": true,
+      "values": [
+        85,
+        70,
+        60
+      ]
     }
   ],
   "Attributes": {

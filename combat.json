@@ -345,6 +345,27 @@
       "minLevel": 10,
       "enabled": true,
       "values": []
+    },
+    {
+      "name": "carefulshooter",
+      "id": 25,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        5,
+        1,
+        15,
+        3,
+        5,
+        2,
+        25,
+        6,
+        5,
+        2,
+        45,
+        10
+      ]
     }
   ],
   "Attributes": {
