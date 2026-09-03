@@ -83,5 +83,12 @@
     }
   ],
   "Attributes": null,
-  "ClassExpMultipliers": {}
+  "ClassExpMultipliers": { 
+    "commoner": 0.1,
+    "blackguard": -0.2,
+    "clockmaker": 0.2,
+    "hunter": -0.5,
+    "malefactor": 0.05,
+    "tailor": 0.75
+}
 }
