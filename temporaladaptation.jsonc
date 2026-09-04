@@ -8,7 +8,7 @@
   "expMult": 100.0,
   "expValue": 8.0,
   "expEquation": "quadratic",
-  "enabled": false,
+  "enabled": true,
   "expLossOnDeath": 0.0,
   "maxExpLossOnDeath": 0.0,
   "abilities": [
@@ -19,15 +19,15 @@
       "minLevel": 1,
       "enabled": false,
       "values": [
-        5,
+        1, // reduces tempstab loss by x% + x% per level, max x% Exclusive
         1,
+        7,
+        5,
+        2,
         15,
-        10,
+        5,
         2,
-        30,
-        10,
-        2,
-        50
+        25
       ]
     },
     {
@@ -37,15 +37,15 @@
       "minLevel": 1,
       "enabled": false,
       "values": [
-        10,
+        5, // reduces tempstab loss by x% + x% per level. The deeper you are the better the effect, max x% Exclusive
         2,
-        30,
-        20,
+        15,
+        10,
         3,
-        50,
-        30,
+        25,
+        15,
         3,
-        90
+        50
       ]
     },
     {
@@ -55,15 +55,15 @@
       "minLevel": 1,
       "enabled": false,
       "values": [
-        10,
+        5, // reduces tempstab by x% + x% per. The lower your tempstab the greater the effect, max x%. Exclusive
         2,
-        30,
-        20,
+        15,
+        10,
         3,
-        50,
-        30,
+        25,
+        15,
         3,
-        90
+        50
       ]
     },
     {
@@ -73,8 +73,8 @@
       "minLevel": 1,
       "enabled": false,
       "values": [
-        50,
-        100
+        25, // Increases Tempstab recovery rate by x%
+        50
       ]
     },
     {
@@ -82,11 +82,11 @@
       "id": 4,
       "maxTier": 3,
       "minLevel": 3,
-      "enabled": false,
+      "enabled": true,
       "values": [
-        11,
-        22,
-        33
+        5, // Based on your current tempstab, you have an x% chance to dodge an attack. Lower = Better
+        10,
+        20
       ]
     },
     {
@@ -94,9 +94,9 @@
       "id": 5,
       "maxTier": 2,
       "minLevel": 3,
-      "enabled": false,
+      "enabled": true,
       "values": [
-        10,
+        10, // based on your current tempstab, you have x% increased mining speed and food consumption rate. Lower = Better
         20
       ]
     },
@@ -105,9 +105,9 @@
       "id": 6,
       "maxTier": 1,
       "minLevel": 5,
-      "enabled": false,
+      "enabled": true,
       "values": [
-        40
+        40 // x% increased xp gain
       ]
     },
     {
@@ -115,9 +115,9 @@
       "id": 7,
       "maxTier": 2,
       "minLevel": 5,
-      "enabled": false,
+      "enabled": true,
       "values": [
-        10,
+        10, // increase ore gained by x% if you are in a temp stable area
         20
       ]
     },
@@ -126,9 +126,9 @@
       "id": 8,
       "maxTier": 2,
       "minLevel": 5,
-      "enabled": false,
+      "enabled": true,
       "values": [
-        10,
+        10, // increases damage by x% if you are in a temp stable area
         20
       ]
     },
@@ -137,20 +137,20 @@
       "id": 9,
       "maxTier": 3,
       "minLevel": 10,
-      "enabled": false,
+      "enabled": true,
       "values": [
-        33,
-        66,
-        100
+        10, // stableminer and stablewarrior work only in temp unstable area and increased effect by x%
+        25,
+        50
       ]
     },
     {
       "name": "timeless",
       "id": 10,
       "maxTier": 1,
-      "minLevel": 10,
-      "enabled": false,
-      "values": []
+      "minLevel": 15,
+      "enabled": true,
+      "values": [] // you no longer get damaged from temp instability
     }
   ],
   "Attributes": null,
