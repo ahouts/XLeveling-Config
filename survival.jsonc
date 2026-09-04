@@ -341,6 +341,7 @@
     "malefactorgloo": 0.05,
     "oathkeeper": 0.15,
     "tailorgloo": 0.0,
-    "rustmage": 0.0
+    "rustmage": 0.0,
+    "tailor": -0.1,
   }
 }
