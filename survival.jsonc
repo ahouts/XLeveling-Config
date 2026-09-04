@@ -181,7 +181,7 @@
       "values": [
         2, // Increase movement speed by X%
         5,
-        8
+        10
       ]
     },
     {
