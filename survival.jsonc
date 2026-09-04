@@ -164,12 +164,13 @@
     {
       "name": "ontheroad",
       "id": 10,
-      "maxTier": 2,
+      "maxTier": 3,
       "minLevel": 5,
       "enabled": true,
       "values": [
-        7, // Increase movement speed on paths by X%
-        15
+        5, // Increase movement speed on paths by X%
+        10,
+        20
       ]
     },
     {
