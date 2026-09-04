@@ -127,11 +127,12 @@
     {
       "name": "allrounder",
       "id": 7,
-      "maxTier": 1,
+      "maxTier": 2,
       "minLevel": 5,
       "enabled": true,
       "values": [
-        1 // Lean X additional specializations
+        1, // Lean X additional specializations
+        2
       ]
     },
     {
