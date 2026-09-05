@@ -17,7 +17,7 @@
       "id": 0,
       "maxTier": 3,
       "minLevel": 1,
-      "enabled": false,
+      "enabled": true,
       "values": [
         1, // reduces tempstab loss by x% + x% per level, max x% Exclusive
         1,
@@ -35,7 +35,7 @@
       "id": 1,
       "maxTier": 3,
       "minLevel": 1,
-      "enabled": false,
+      "enabled": true,
       "values": [
         5, // reduces tempstab loss by x% + x% per level. The deeper you are the better the effect, max x% Exclusive
         2,
@@ -53,7 +53,7 @@
       "id": 2,
       "maxTier": 3,
       "minLevel": 1,
-      "enabled": false,
+      "enabled": true,
       "values": [
         5, // reduces tempstab by x% + x% per. The lower your tempstab the greater the effect, max x%. Exclusive
         2,
@@ -71,7 +71,7 @@
       "id": 3,
       "maxTier": 2,
       "minLevel": 1,
-      "enabled": false,
+      "enabled": true,
       "values": [
         25, // Increases Tempstab recovery rate by x%
         50
@@ -149,7 +149,7 @@
       "id": 10,
       "maxTier": 1,
       "minLevel": 15,
-      "enabled": true,
+      "enabled": false,
       "values": [] // you no longer get damaged from temp instability
     }
   ],
