@@ -109,15 +109,15 @@
       "id": 4,
       "maxTier": 2,
       "minLevel": 3,
-      "enabled": false,
+      "enabled": true,
       "values": [
         10, // Increases milk and egg yield by X%. You have X% chance to increase the generation of animal to a max of gen X
         2,
-        5,
+        3,
 
         20,
         3,
-        10
+        3
       ]
     },
     {
@@ -248,8 +248,8 @@
       "name": "hunterbag",
       "id": 14,
       "maxTier": 1,
-      "minLevel": 1,
-      "enabled": false,
+      "minLevel": 10,
+      "enabled": true,
       "values": [
         1 // adds an extra bag slot that can only hold hunting bag from the butchering mod
       ]
