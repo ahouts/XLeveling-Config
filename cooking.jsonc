@@ -188,6 +188,14 @@
       "minLevel": 5,
       "enabled": false,
       "values": [] // dilution also applies to inedible products
+    },
+    {
+      "name": "burntmastery",
+      "id": 12,
+      "maxTier": 1,
+      "minLevel": 8,
+      "enabled": false,
+      "values": []
     }
   ],
   "Attributes": {
