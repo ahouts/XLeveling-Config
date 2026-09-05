@@ -1,5 +1,5 @@
 {
-  "unlearnCooldown": 120.0,
+  "unlearnCooldown": 90.0,
   "pointsForUnlearn": 1,
   "deathPenaltyCooldown": 0.0,
   "specialisationLimit": 1,
